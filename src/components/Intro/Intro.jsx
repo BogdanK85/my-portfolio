@@ -1,5 +1,6 @@
 import { Container, HighlightedLink } from '../../styles/GlobalStyles';
 import me from '../../assets/me.jpg';
+
 import resume from '../../assets/Resume.png';
 import { motion } from 'framer-motion';
 

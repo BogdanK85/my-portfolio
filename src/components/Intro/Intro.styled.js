@@ -30,12 +30,14 @@ export const MainTitle = styled.h1`
 `;
 
 export const Title = styled.p`
+  font-family: 'Anta', sans-serif;
   font-size: 1.2em;
   font-weight: 500;
 `;
 
 export const Bio = styled.p`
   color: var(--other-para-color);
+  font-family: 'Anta', sans-serif;
   font-size: 0.9em;
   margin-bottom: 1em;
 `;
