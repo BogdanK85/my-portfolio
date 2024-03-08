@@ -1,21 +1,26 @@
+import { nanoid } from 'nanoid';
+import phonebook from '../src/assets/projects/phonebook.png';
+import studio from '../src/assets/projects/studio.jpg';
+
 export const projects = [
   {
     id: nanoid(),
     title: 'Phonebook',
-    img: '',
+    img: phonebook,
     description: 'Phonebook app helps you save phone contacts and manage them',
     technologies: ['React.js'],
-    github: 'https://github',
-    live: 'https://',
+    github: 'https://github.com/BogdanK85/goit-react-hw-08-phonebook',
+    live: 'https://bogdank85.github.io/goit-react-hw-08-phonebook/',
   },
   {
     id: nanoid(),
-    title: 'Phonebook2',
-    img: '',
-    description: 'Phonebook app helps you save phone contacts and manage them',
-    technologies: ['React.js'],
-    github: 'https://github',
-    live: 'https://',
+    title: 'Web-Studio',
+    img: studio,
+    description:
+      'Site for digital marketing for your business. Increase the flow of customers and sales.',
+    technologies: ['HTML, CSS'],
+    github: 'https://github.com/BogdanK85/web-studio',
+    live: 'https://bogdank85.github.io/web-studio/',
   },
   {
     id: nanoid(),
@@ -72,3 +77,5 @@ export const projects = [
     live: 'https://',
   },
 ];
+
+export const data = { projects };

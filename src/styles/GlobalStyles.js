@@ -99,7 +99,7 @@ export const NormalLink = styled.a`
     left: -64px;
     width: 32px;
     height: 64px;
-    background-color: white;
+    background-color: red;
     opacity: 0.5;
     filter: blur(10px);
     transform: rotate(30deg);
@@ -114,7 +114,7 @@ export const NormalLink = styled.a`
   }
 
   :hover:after {
-    left: 120%;
+    left: 220%;
     transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
   }
 `;
@@ -226,15 +226,4 @@ export const SectionTitle = styled.h1`
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
   margin-top: 1em;
-
-  /* &::after {
-    content: '';
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    height: 16px;
-    background-color: var(--underline);
-    z-index: -1;
-  } */
 `;

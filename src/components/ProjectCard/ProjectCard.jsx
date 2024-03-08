@@ -6,6 +6,7 @@ import {
   CardImg,
   CardInfo,
   CardLink,
+  CardLinkLive,
   CardLinks,
   CardTitle,
 } from './ProjectCard.styled';
@@ -19,19 +20,14 @@ const ProjectCard = ({ project }) => {
         <CardDescription>{project.description}</CardDescription>
 
         <CardLinks>
-          {prject.github && (
+          {project.github && (
             <CardLink href={project.github} target="_blank" rel="noreferrer">
               Source <FaGithub />
             </CardLink>
           )}
-          <CardLink
-            href={project.live}
-            primary
-            target="_blank"
-            rel="noreferrer"
-          >
+          <CardLinkLive href={project.live} target="_blank" rel="noreferrer">
             Live <HiOutlineExternalLink />
-          </CardLink>
+          </CardLinkLive>
         </CardLinks>
       </CardInfo>
     </Card>

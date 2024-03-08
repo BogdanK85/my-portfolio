@@ -1,5 +1,8 @@
-const { useLocation } = require('react-router-dom');
-const { Container } = require('styles/GlobalStyles');
+// import { useLocation } from 'react-router-dom';
+import { Container, SectionTitle } from 'styles/GlobalStyles';
+import { motion } from 'framer-motion';
+import { ProjectsWrapper } from './ProjectList.styled';
+import ProjectCard from 'components/ProjectCard/ProjectCard';
 
 const container = {
   hidden: { opacity: 0, y: 300 },
@@ -22,7 +25,7 @@ const item = {
 };
 
 const ProjectList = ({ projects }) => {
-  const { pathname } = useLocation();
+  //   const { pathname } = useLocation();
 
   return (
     <Container>
@@ -34,14 +37,16 @@ const ProjectList = ({ projects }) => {
         <SectionTitle>Projects</SectionTitle>
       </motion.div>
       <motion.section variants={container} initial="hidden" animate="visible">
-        <ProjectWrapper>
+        <ProjectsWrapper>
           {projects.map(project => (
             <motion.div key={project.id} variants={item}>
               <ProjectCard project={project} />
             </motion.div>
           ))}
-        </ProjectWrapper>
+        </ProjectsWrapper>
       </motion.section>
     </Container>
   );
 };
+
+export default ProjectList;
