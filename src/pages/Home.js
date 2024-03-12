@@ -11,7 +11,7 @@ const Home = () => {
         HOME PAGE
         <Intro />;
         <Skills skills={skills} />
-        <ProjectList projects={projects.slice(0, 8)} />
+        <ProjectList projects={projects.slice(0, 3)} />
       </div>
     </>
   );

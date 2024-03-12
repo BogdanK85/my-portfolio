@@ -8,6 +8,7 @@ import {
   CardLink,
   CardLinkLive,
   CardLinks,
+  CardProject,
   CardTitle,
 } from './ProjectCard.styled';
 
@@ -18,7 +19,7 @@ const ProjectCard = ({ project }) => {
       <CardInfo>
         <CardTitle>{project.title}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
-
+        <CardProject>{project.repository}</CardProject>
         <CardLinks>
           {project.github && (
             <CardLink href={project.github} target="_blank" rel="noreferrer">

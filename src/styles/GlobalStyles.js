@@ -88,7 +88,7 @@ export const NormalLink = styled.a`
   width: fit-content;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
   position: relative;
   overflow: hidden;
 
@@ -129,7 +129,7 @@ export const HighlightedLink = styled.a`
   width: fit-content;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
   position: relative;
   overflow: hidden;
 

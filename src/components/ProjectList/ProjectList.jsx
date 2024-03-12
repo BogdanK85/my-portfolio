@@ -1,8 +1,13 @@
-// import { useLocation } from 'react-router-dom';
-import { Container, SectionTitle } from 'styles/GlobalStyles';
+import { useLocation } from 'react-router-dom';
+import {
+  Container,
+  SectionTitle,
+  TransparentButton,
+} from 'styles/GlobalStyles';
 import { motion } from 'framer-motion';
 import { ProjectsWrapper } from './ProjectList.styled';
 import ProjectCard from 'components/ProjectCard/ProjectCard';
+import { BsChevronDown } from 'react-icons/bs';
 
 const container = {
   hidden: { opacity: 0, y: 300 },
@@ -25,7 +30,7 @@ const item = {
 };
 
 const ProjectList = ({ projects }) => {
-  //   const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
   return (
     <Container>
@@ -44,6 +49,11 @@ const ProjectList = ({ projects }) => {
             </motion.div>
           ))}
         </ProjectsWrapper>
+        {projects.length === 3 && pathname === '/' && (
+          <TransparentButton to="/projects">
+            See more <BsChevronDown />
+          </TransparentButton>
+        )}
       </motion.section>
     </Container>
   );

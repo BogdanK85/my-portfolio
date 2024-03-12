@@ -3,7 +3,6 @@ import { NormalLink } from 'styles/GlobalStyles';
 
 export const Card = styled.article`
   background: var(--bg-card);
-
   backdrop-filter: blur(22px);
   border-radius: 6px;
   overflow: hidden;
@@ -15,6 +14,7 @@ export const CardImg = styled.img`
 
 export const CardInfo = styled.div`
   padding: 1em;
+  line-height: 1.2;
 `;
 
 export const CardTitle = styled.h2`
@@ -23,6 +23,12 @@ export const CardTitle = styled.h2`
 
 export const CardDescription = styled.small`
   color: var(--para-gray-color);
+`;
+export const CardProject = styled.p`
+  font-weight: 700;
+  color: black;
+  margin-top: 3px;
+  margin-left: 50px;
 `;
 
 export const CardLinks = styled.div`
