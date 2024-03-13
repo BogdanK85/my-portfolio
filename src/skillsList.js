@@ -1,5 +1,5 @@
 import html from '../src/assets/icons/html.png';
-import css from '../src/assets/icons/css.svg';
+import css from '../src/assets/icons/css.png';
 import javascript from '../src/assets/icons/javascript.svg';
 import typescript from '../src/assets/icons/typescript.svg';
 import react from '../src/assets/icons/react.svg';
