@@ -49,16 +49,16 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', scrollCheker);
   }, []);
 
-  return (
-    <Header mobile={mobileMenuOpen} bgBlur={bgBlur} theme={theme}>
-      <ScrollIndicator />
-      <Container>
-        <Nav>
-          <BurgerMenu onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? <IoMdClose /> : <HiOutlineMenuAlt2 />}
-          </BurgerMenu>
-        </Nav>
-      </Container>
-    </Header>
-  );
+  //   return (
+  //     <Header mobile={mobileMenuOpen} bgBlur={bgBlur} theme={theme}>
+  //       <ScrollIndicator />
+  //       <Container>
+  //         <Nav>
+  //           <BurgerMenu onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+  //             {mobileMenuOpen ? <IoMdClose /> : <HiOutlineMenuAlt2 />}
+  //           </BurgerMenu>
+  //         </Nav>
+  //       </Container>
+  //     </Header>
+  //   );
 };
