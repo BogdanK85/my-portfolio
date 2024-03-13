@@ -1,24 +1,24 @@
 import html from '../src/assets/icons/html.png';
 import css from '../src/assets/icons/css.png';
-import javascript from '../src/assets/icons/javascript.svg';
-import typescript from '../src/assets/icons/typescript.svg';
-import react from '../src/assets/icons/react.svg';
-import redux from '../src/assets/icons/redux.svg';
+import javascript from '../src/assets/icons/javascript.png';
+import typescript from '../src/assets/icons/typescript.png';
+import react from '../src/assets/icons/react.png';
+import redux from '../src/assets/icons/redux.png';
 // import boodstrap from '../src/assets/icons/boodstrap.svg';
-import nodejs from '../src/assets/icons/nodejs.svg';
-import expressjs from '../src/assets/icons/expressjs.svg';
-import mongodb from '../src/assets/icons/mongodb.svg';
-import sass from '../src/assets/icons/sass.svg';
-import git from '../src/assets/icons/git.svg';
-import figma from '../src/assets/icons/figma.svg';
-import github from '../src/assets/icons/github.svg';
-import babel from '../src/assets/icons/babel.svg';
-import webpack from '../src/assets/icons/webpack.svg';
-import postman from '../src/assets/icons/postman.svg';
-import vscode from '../src/assets/icons/vscode.svg';
+import nodejs from '../src/assets/icons/nodejs.png';
+import expressjs from '../src/assets/icons/expressjs.png';
+import mongodb from '../src/assets/icons/mongodb.png';
+import sass from '../src/assets/icons/sass.png';
+import git from '../src/assets/icons/git.png';
+import figma from '../src/assets/icons/figma.png';
+import github from '../src/assets/icons/github.png';
+import babel from '../src/assets/icons/babel.png';
+import webpack from '../src/assets/icons/webpack.png';
+import postman from '../src/assets/icons/postman.png';
+import vscode from '../src/assets/icons/vscode.png';
 // import responsivedesign from '../src/assets/icons/responsivedesign.svg';
 // import styledcomponents from '../src/assets/icons/styledcomponents.svg';
-import npm from '../src/assets/icons/npm.svg';
+import npm from '../src/assets/icons/npm.png';
 
 export const skillsList = [
   {
