@@ -14,7 +14,7 @@ import figma from './assets/Icons/figma.svg';
 import github from './assets/Icons/github.svg';
 import babel from './assets/Icons/babel.svg';
 import webpack from './assets/Icons/webpack.svg';
-import postman from './assets/Icons/postman.svg';
+// import postman from './assets/Icons/postman.svg';
 import vscode from './assets/Icons/vscode.svg';
 // import responsivedesign from '../src/assets/icons/responsivedesign.svg';
 // import styledcomponents from '../src/assets/icons/styledcomponents.svg';
@@ -100,11 +100,11 @@ export const skillsList = [
     img: webpack,
     title: 'Webpack',
   },
-  {
-    id: 'k17',
-    img: postman,
-    title: 'Postman',
-  },
+  // {
+  //   id: 'k17',
+  //   img: postman,
+  //   title: 'Postman',
+  // },
   {
     id: 'k18',
     img: vscode,
