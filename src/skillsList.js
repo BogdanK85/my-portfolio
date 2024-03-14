@@ -1,24 +1,24 @@
-import html from '../src/assets/icons/html.png';
-import css from '../src/assets/icons/css.png';
-import javascript from '../src/assets/icons/javascript.png';
-import typescript from '../src/assets/icons/typescript.png';
-import react from '../src/assets/icons/react.png';
-import redux from '../src/assets/icons/redux.png';
+import html from './assets/Icons/html.svg';
+import css from './assets/Icons/css.svg';
+import javascript from './assets/Icons/javascript.svg';
+import typescript from './assets/Icons/typescript.svg';
+import react from './assets/Icons/react.svg';
+import redux from './assets/Icons/redux.svg';
 // import boodstrap from '../src/assets/icons/boodstrap.svg';
-import nodejs from '../src/assets/icons/nodejs.png';
-import expressjs from '../src/assets/icons/expressjs.png';
-import mongodb from '../src/assets/icons/mongodb.png';
-import sass from '../src/assets/icons/sass.png';
-import git from '../src/assets/icons/git.png';
-import figma from '../src/assets/icons/figma.png';
-import github from '../src/assets/icons/github.png';
-import babel from '../src/assets/icons/babel.png';
-import webpack from '../src/assets/icons/webpack.png';
-import postman from '../src/assets/icons/postman.png';
-import vscode from '../src/assets/icons/vscode.png';
+import nodejs from './assets/Icons/nodejs.svg';
+import expressjs from './assets/Icons/expressjs.svg';
+import mongodb from './assets/Icons/mongodb.svg';
+import sass from './assets/Icons/sass.svg';
+import git from './assets/Icons/git.svg';
+import figma from './assets/Icons/figma.svg';
+import github from './assets/Icons/github.svg';
+import babel from './assets/Icons/babel.svg';
+import webpack from './assets/Icons/webpack.svg';
+import postman from './assets/Icons/postman.svg';
+import vscode from './assets/Icons/vscode.svg';
 // import responsivedesign from '../src/assets/icons/responsivedesign.svg';
 // import styledcomponents from '../src/assets/icons/styledcomponents.svg';
-import npm from '../src/assets/icons/npm.png';
+import npm from './assets/Icons/npm.svg';
 
 export const skillsList = [
   {
