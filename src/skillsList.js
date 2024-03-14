@@ -1,24 +1,24 @@
-import html from './assets/Icons/html.svg';
-import css from './assets/Icons/css.svg';
-import javascript from './assets/Icons/javascript.svg';
-import typescript from './assets/Icons/typescript.svg';
-import react from './assets/Icons/react.svg';
-import redux from './assets/Icons/redux.svg';
+import html from './assets/icons/html.png';
+import css from './assets/icons/css.png';
+import javascript from './assets/icons/javascript.png';
+import typescript from './assets/icons/typescript.png';
+import react from './assets/icons/react.png';
+import redux from './assets/icons/redux.png';
 // import boodstrap from '../src/assets/icons/boodstrap.svg';
-import nodejs from './assets/Icons/nodejs.svg';
-import expressjs from './assets/Icons/expressjs.svg';
-import mongodb from './assets/Icons/mongodb.svg';
-import sass from './assets/Icons/sass.svg';
-import git from './assets/Icons/git.svg';
-import figma from './assets/Icons/figma.svg';
-import github from './assets/Icons/github.svg';
-import babel from './assets/Icons/babel.svg';
-import webpack from './assets/Icons/webpack.svg';
-// import postman from './assets/Icons/postman.svg';
-import vscode from './assets/Icons/vscode.svg';
+import nodejs from './assets/icons/nodejs.png';
+import expressjs from './assets/icons/expressjs.png';
+import mongodb from './assets/icons/mongodb.png';
+import sass from './assets/icons/sass.png';
+import git from './assets/icons/git.png';
+import figma from './assets/icons/figma.png';
+import github from './assets/icons/github.png';
+import babel from './assets/icons/babel.png';
+import webpack from './assets/icons/webpack.png';
+import postman from './assets/icons/postman.png';
+import vscode from './assets/icons/vscode.png';
 // import responsivedesign from '../src/assets/icons/responsivedesign.svg';
 // import styledcomponents from '../src/assets/icons/styledcomponents.svg';
-import npm from './assets/Icons/npm.svg';
+import npm from './assets/icons/npm.png';
 
 export const skillsList = [
   {
@@ -100,11 +100,11 @@ export const skillsList = [
     img: webpack,
     title: 'Webpack',
   },
-  // {
-  //   id: 'k17',
-  //   img: postman,
-  //   title: 'Postman',
-  // },
+  {
+    id: 'k17',
+    img: postman,
+    title: 'Postman',
+  },
   {
     id: 'k18',
     img: vscode,
