@@ -26,7 +26,7 @@ export const CardDescription = styled.small`
 `;
 export const CardProject = styled.p`
   font-weight: 700;
-  color: black;
+  color: var(--hearing-color);
   margin-top: 3px;
   margin-left: 50px;
 `;

@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
       <div>
-        HOME PAGE
         <Intro />;
         <Skills skills={skills} />
         <ProjectList projects={projects.slice(0, 3)} />

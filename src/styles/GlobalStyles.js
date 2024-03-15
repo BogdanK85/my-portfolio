@@ -211,6 +211,8 @@ export const TransparentButton = styled(Link)`
   padding: 0.5em 1.5em;
   text-decoration: none;
   color: var(--para-color);
+  font-size: 1.25em;
+  font-weight: 500;
 
   svg {
     margin-left: 8px;
