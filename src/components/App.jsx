@@ -5,6 +5,8 @@ import { Layout } from './Layout/Layout';
 
 const Home = lazy(() => import('../pages/Home'));
 const Projects = lazy(() => import('../pages/Projects'));
+const Education = lazy(() => import('../pages/Education'));
+
 export const App = () => {
   return (
     <Suspense fallback={'loading'}>
@@ -12,6 +14,7 @@ export const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="education" element={<Education />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>

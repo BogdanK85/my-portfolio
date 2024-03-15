@@ -7,6 +7,7 @@ export const Container = styled.div`
   width: 90%;
   max-width: 768px;
   margin: 0 auto;
+  /* position: relative; */
 `;
 
 export const Nav = styled.nav`

@@ -1,3 +1,4 @@
+import Education from 'components/Education/Educations';
 import Intro from 'components/Intro/Intro';
 import ProjectList from 'components/ProjectList/ProjectList';
 import Skills from 'components/Skills/Skills';
@@ -11,6 +12,7 @@ const Home = () => {
         <Intro />;
         <Skills skills={skills} />
         <ProjectList projects={projects.slice(0, 3)} />
+        <Education />
       </div>
     </>
   );
