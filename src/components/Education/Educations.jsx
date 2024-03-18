@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import sertificate from '../../assets/sertificate.pdf';
+
 import {
   ButtonWrap,
   EducationHeader,
@@ -11,6 +12,7 @@ import {
 } from './Educations.styled';
 
 import { Container, SectionTitle } from 'styles/GlobalStyles';
+import MySlider from 'components/Slider/Slider';
 
 const educationData = [
   {
@@ -54,6 +56,21 @@ const Educations = () => {
       12 * (dateTo.getFullYear() - dateFrom.getFullYear())
     );
   };
+
+  // const [currentSlide, setCurrentSlide] = useState(0);
+  // const images = [apple, chicken, Pasta, pizza];
+
+  // const handleNextSlide = () => {
+  //   setCurrentSlide(prevSlide =>
+  //     prevSlide === images.length - 1 ? 0 : prevSlide + 1
+  //   );
+  // };
+
+  // const handlePrevSlide = () => {
+  //   setCurrentSlide(prevSlide =>
+  //     prevSlide === 0 ? images.length - 1 : prevSlide - 1
+  //   );
+  // };
 
   return (
     <Container>
@@ -100,6 +117,25 @@ const Educations = () => {
           </ButtonWrap>
         </TimeLine>
       </motion.div>
+      {/* <SliderWrapper>
+        <motion.div
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          className="slider"
+          style={{ x: `-${currentSlide * 100}%` }}
+        >
+          {images.map((image, index) => (
+            <SliderImage key={index} src={image} alt={`Slide ${index + 1}`} />
+          ))}
+        </motion.div>
+        <button onClick={handlePrevSlide}>
+          <FiChevronLeft />
+        </button>
+        <button onClick={handleNextSlide}>
+          <FiChevronRight />
+        </button>
+      </SliderWrapper> */}
+      <MySlider />
     </Container>
   );
 };

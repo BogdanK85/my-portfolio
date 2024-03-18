@@ -124,3 +124,14 @@ small {
 export const Knowlege = styled.p`
   color: var(--para-gray-color);
 `;
+export const SliderWrapper = styled.div`
+  position: relative;
+  margin: 2em 0;
+`;
+
+export const SliderImage = styled.img`
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+`;
