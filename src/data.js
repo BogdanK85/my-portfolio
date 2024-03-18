@@ -14,7 +14,7 @@ export const projects = [
     id: nanoid(),
     title: 'Phonebook',
     img: phonebook,
-    description: 'Phonebook app helps you save phone contacts and manage them',
+    description: 'Phonebook app helps you save contacts and manage them',
     repository: 'My own project',
     technologies: ['React.js'],
     github: 'https://github.com/BogdanK85/goit-react-hw-08-phonebook',
@@ -64,8 +64,7 @@ export const projects = [
     id: nanoid(),
     title: 'FoodSta',
     img: foodsta,
-    description:
-      'TastyTreats - Customize Your Meal with Ingredient and Video Guides',
+    description: 'Enjoy Your Favorite Food From Anywhere',
     repository: 'Team project',
     technologies: ['React.js'],
     github:
@@ -98,7 +97,7 @@ export const projects = [
     id: nanoid(),
     title: 'Tasty treats',
     img: tastytreats,
-    description: 'Phonebook app helps you save phone contacts and manage them',
+    description: 'Customize Your Meal with Ingredient and Video Guides',
     repository: 'Team project',
     technologies: ['React.js'],
     github:

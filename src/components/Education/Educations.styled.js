@@ -12,6 +12,7 @@ const swipe = keyframes`
   }
 `;
 export const TimeLine = styled.ul`
+  position: relative;
   list-style-type: none;
   margin: 1em 0;
   padding: 1em;
@@ -40,21 +41,29 @@ export const TimeLineItem = styled.li`
   }
 `;
 
-export const ButtonWrap = styled.button`
-  position: relative;
+// export const ButtonWrap = styled.button`
+//   position: relative;
 
-  right: -575px;
-  top: 30px;
+//   right: -575px;
+//   top: 30px;
+// `;
+export const ButtonWrap = styled.button`
+  position: absolute;
+  right: 1px;
+  top: -10px;
+  z-index: 1;
 `;
 
 export const HighlightedLinkSertificate = styled.a`
   background-color: var(--accent-blue);
+  font-family: 'Anta', sans-serif;
   text-decoration: none;
   padding: 0.6em 1.2em;
   border-radius: 4px;
   color: white;
   display: flex;
-  width: fit-content;
+  width: 180px;
+  height: 46px;
   position: absolute;
   right: 15px;
   top: 50px;
@@ -68,7 +77,7 @@ export const HighlightedLinkSertificate = styled.a`
   &::after {
     content: '';
     position: absolute;
-    top: 310px;
+    top: -10px;
     left: -64px;
     width: 32px;
     height: 64px;

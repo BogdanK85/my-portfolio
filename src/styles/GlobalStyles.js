@@ -226,7 +226,7 @@ export const SectionTitle = styled.h1`
   font-weight: 600;
   position: relative;
   display: inline-block;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Anta', sans-serif;
   letter-spacing: 1px;
   margin-top: 1em;
 `;

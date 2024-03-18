@@ -64,11 +64,6 @@ const Educations = () => {
       >
         <SectionTitle>Education</SectionTitle>
 
-        <ButtonWrap>
-          <HighlightedLinkSertificate href={sertificate} target="_blank">
-            Download Sertificate <FiDownload />
-          </HighlightedLinkSertificate>
-        </ButtonWrap>
         <TimeLine>
           {educationData
             .sort((a, b) => b.fromDate.getTime() - a.fromDate.getTime())
@@ -98,6 +93,11 @@ const Educations = () => {
                 <Knowlege>{educ.knowleges}</Knowlege>
               </TimeLineItem>
             ))}
+          <ButtonWrap>
+            <HighlightedLinkSertificate href={sertificate} target="_blank">
+              Download Sertificate <FiDownload />
+            </HighlightedLinkSertificate>
+          </ButtonWrap>
         </TimeLine>
       </motion.div>
     </Container>
