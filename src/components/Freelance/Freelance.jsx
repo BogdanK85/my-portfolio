@@ -1,10 +1,10 @@
 import freelancer from '../../assets/freelancer.jpg';
-import gmail from '../../assets/gmail.png';
-import linkedin from '../../assets/linkedin.png';
-import facebook from '../../assets/facebook.png';
+import gmail from '../../assets/social/gmail.png';
+import linkedin from '../../assets/social/linkedin.png';
+import facebook from '../../assets/social/facebook.png';
 
-const { Container } = require('styles/GlobalStyles');
-const {
+import { Container } from 'styles/GlobalStyles';
+import {
   Wrapper,
   TextWrapper,
   Heading,
@@ -12,7 +12,7 @@ const {
   IconsWrapper,
   IconLink,
   Image,
-} = require('./Frelance.styled');
+} from './Frelance.styled';
 
 const contactIcons = [
   {
@@ -31,6 +31,7 @@ const contactIcons = [
     altText: 'facebook',
   },
 ];
+
 const Freelance = () => {
   return (
     <Container>
@@ -44,7 +45,7 @@ const Freelance = () => {
 
           <IconsWrapper>
             {contactIcons.map((icon, i) => (
-              <IconLink href={icon.linkTo} key={i}>
+              <IconLink href={icon.linkTo} key={i} target="_blank">
                 <img src={icon.url} alt={icon.altText} />
               </IconLink>
             ))}

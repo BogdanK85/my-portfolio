@@ -41,14 +41,9 @@ export const TimeLineItem = styled.li`
   }
 `;
 
-// export const ButtonWrap = styled.button`
-//   position: relative;
-
-//   right: -575px;
-//   top: 30px;
-// `;
 export const ButtonWrap = styled.button`
   position: absolute;
+  list-style: none;
   right: 1px;
   top: -10px;
   z-index: 1;
@@ -70,7 +65,31 @@ export const HighlightedLinkSertificate = styled.a`
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5em;
-
+  @media screen and (max-width: 1440px) {
+    right: 1px;
+    width: 200px;
+  }
+  @media screen and (max-width: 620px) {
+    right: 1px;
+    top: 100px;
+    width: 180px;
+    padding: 0.1em 0.5em;
+    height: 36px;
+  }
+  @media screen and (max-width: 437px) {
+    right: 1px;
+    top: 135px;
+    width: 180px;
+    padding: 0.1em 0.5em;
+    height: 36px;
+  }
+  @media screen and (max-width: 390px) {
+    right: 1px;
+    top: 175px;
+    width: 180px;
+    padding: 0.1em 0.5em;
+    height: 36px;
+  }
   cursor: pointer;
   overflow: hidden;
 

@@ -57,30 +57,14 @@ const Educations = () => {
     );
   };
 
-  // const [currentSlide, setCurrentSlide] = useState(0);
-  // const images = [apple, chicken, Pasta, pizza];
-
-  // const handleNextSlide = () => {
-  //   setCurrentSlide(prevSlide =>
-  //     prevSlide === images.length - 1 ? 0 : prevSlide + 1
-  //   );
-  // };
-
-  // const handlePrevSlide = () => {
-  //   setCurrentSlide(prevSlide =>
-  //     prevSlide === 0 ? images.length - 1 : prevSlide - 1
-  //   );
-  // };
-
   return (
     <Container>
       <motion.div
         initial={{ opacity: 0, y: 300 }}
         animate={{ opacity: 1, y: 0 }}
-        transparent={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
       >
         <SectionTitle>Education</SectionTitle>
-
         <TimeLine>
           {educationData
             .sort((a, b) => b.fromDate.getTime() - a.fromDate.getTime())
@@ -106,35 +90,17 @@ const Educations = () => {
                     )
                   </small>
                 </EducationHeader>
-
                 <Knowlege>{educ.knowleges}</Knowlege>
               </TimeLineItem>
             ))}
           <ButtonWrap>
             <HighlightedLinkSertificate href={sertificate} target="_blank">
-              Download Sertificate <FiDownload />
+              Download Sertificate
+              <FiDownload />
             </HighlightedLinkSertificate>
           </ButtonWrap>
         </TimeLine>
       </motion.div>
-      {/* <SliderWrapper>
-        <motion.div
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          className="slider"
-          style={{ x: `-${currentSlide * 100}%` }}
-        >
-          {images.map((image, index) => (
-            <SliderImage key={index} src={image} alt={`Slide ${index + 1}`} />
-          ))}
-        </motion.div>
-        <button onClick={handlePrevSlide}>
-          <FiChevronLeft />
-        </button>
-        <button onClick={handleNextSlide}>
-          <FiChevronRight />
-        </button>
-      </SliderWrapper> */}
       <MySlider />
     </Container>
   );

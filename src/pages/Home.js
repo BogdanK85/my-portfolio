@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div>
-        <Intro />;
+        <Intro />
         <Skills skills={skills} />
         <ProjectList projects={projects.slice(0, 3)} />
         <Education />

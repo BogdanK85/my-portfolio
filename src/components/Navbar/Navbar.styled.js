@@ -44,6 +44,8 @@ export const MobileNavLinks = styled.div`
 
   &.open {
     display: block;
+    background-color: var(--bg-color);
+    height: 100vh;
   }
 
   li a {
