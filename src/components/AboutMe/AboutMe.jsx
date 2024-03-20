@@ -1,11 +1,12 @@
-import { Container } from '../../styles/GlobalStyles';
+import { Container, HighlightedLink } from '../../styles/GlobalStyles';
 import me from '../../assets/me.jpg';
 
+import resume from '../../assets/Resume.png';
 import { motion } from 'framer-motion';
 
+import { FiDownload } from 'react-icons/fi';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import {
-  AboutMeBtn,
   Bio,
   Description,
   Icon,
@@ -14,9 +15,9 @@ import {
   MyImg,
   Title,
   Wrapper,
-} from './Intro.styled';
+} from './AboutMe.styled';
 
-const Intro = () => {
+const AboutMe = () => {
   return (
     <Container>
       <motion.div
@@ -27,14 +28,20 @@ const Intro = () => {
         <Wrapper>
           <MyImg src={me} alt="Bohdan Kobak" loading="lazy" />
           <Description>
-            <Title>HELLO there..!</Title>
-            <MainTitle>I'm Bohdan Kobak</MainTitle>
+            <MainTitle>Bohdan Kobak</MainTitle>
             <Title>Frontend developer</Title>
             <Bio>
-              Passionate about Technology and Startups | Lifelong learner
-              Innovations for a better tomorrow: program and change the world.
+              From my first programming webinar, I was fascinated. With
+              enthusiasm and passion, I pursued education at GoIT IT School.
+              Throughout my studies, I delved into programming languages and
+              full-stack development. Tackling complex team projects motivated
+              me to grow. Now, equipped with new skills, I'm driven by a passion
+              for coding and seek new challenges to contribute to computer
+              science.
             </Bio>
-            <AboutMeBtn to="/about">About Me</AboutMeBtn>
+            <HighlightedLink href={resume} target="_blank">
+              Download Resume <FiDownload />
+            </HighlightedLink>
             <IconsWrapper>
               <Icon href="https://github.com/BogdanK85" target="_blank">
                 <BsGithub />
@@ -53,4 +60,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default AboutMe;

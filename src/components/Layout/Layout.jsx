@@ -1,3 +1,4 @@
+import Footer from 'components/Footer/Footer';
 import Navbar from 'components/Navbar/Navbar';
 import { Suspense, useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
@@ -14,6 +15,7 @@ export const Layout = () => {
       <Suspense fallback={<div>Loading page...</div>}>
         <Navbar />
         <Outlet />
+        <Footer />
       </Suspense>
     </Wraper>
   );
