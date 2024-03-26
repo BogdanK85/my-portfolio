@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 ## Features
 
 - **Home Page**: Displays an introduction, skills, featured projects, education,
-  and freelance availability. ![home page preview](./screens/homepage.png)
+  and freelance availability. ![home page preview](./public/screens/homepage.png)
   ![home page preview](./screens/homepage2.png)
 - **About Page**: Provides information about myself and my background. Also you
   can download my resume. ![about me page preview](./screens/aboutpage.png)
