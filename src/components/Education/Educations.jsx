@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import sertificate from '../../assets/sertificate.pdf';
-
 import {
   ButtonWrap,
   EducationHeader,
@@ -10,7 +9,6 @@ import {
   TimeLine,
   TimeLineItem,
 } from './Educations.styled';
-
 import { Container, SectionTitle } from 'styles/GlobalStyles';
 import MySlider from 'components/Slider/Slider';
 
@@ -25,7 +23,7 @@ const educationData = [
   },
   {
     id: 2,
-    univercity: 'Drogobych State University',
+    univercity: 'Ukraine Drogobych State University',
     specialization: 'Master | Management',
     fromDate: new Date('2003-09-01'),
     toDate: new Date('2008-06-30'),
@@ -71,9 +69,8 @@ const Educations = () => {
             .map(educ => (
               <TimeLineItem key={educ.id}>
                 <EducationHeader>
-                  <h3>
-                    {educ.univercity}:{educ.specialization}
-                  </h3>
+                  <h3>{educ.univercity}:</h3>
+                  <h3>{educ.specialization}</h3>
 
                   <small>
                     {months[educ.fromDate.getMonth()] +

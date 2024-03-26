@@ -1,9 +1,7 @@
 import { Container, HighlightedLink } from '../../styles/GlobalStyles';
-import me from '../../assets/me.jpg';
-
-import resume from '../../assets/Resume.png';
 import { motion } from 'framer-motion';
-
+import me from '../../assets/me.jpg';
+import resume from '../../assets/resume.pdf';
 import { FiDownload } from 'react-icons/fi';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import {
@@ -28,8 +26,8 @@ const AboutMe = () => {
         <Wrapper>
           <MyImg src={me} alt="Bohdan Kobak" loading="lazy" />
           <Description>
-            <MainTitle>Bohdan Kobak</MainTitle>
-            <Title>Frontend developer</Title>
+            <MainTitle>I'm Bohdan Kobak</MainTitle>
+            <Title>Fullstack developer</Title>
             <Bio>
               From my first programming webinar, I was fascinated. With
               enthusiasm and passion, I pursued education at GoIT IT School.

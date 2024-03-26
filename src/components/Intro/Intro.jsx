@@ -1,8 +1,6 @@
 import { Container } from '../../styles/GlobalStyles';
 import me from '../../assets/me.jpg';
-
 import { motion } from 'framer-motion';
-
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import {
   AboutMeBtn,
@@ -29,7 +27,7 @@ const Intro = () => {
           <Description>
             <Title>HELLO there..!</Title>
             <MainTitle>I'm Bohdan Kobak</MainTitle>
-            <Title>Frontend developer</Title>
+            <Title>Fullstack developer</Title>
             <Bio>
               Passionate about Technology and Startups | Lifelong learner
               Innovations for a better tomorrow: program and change the world.

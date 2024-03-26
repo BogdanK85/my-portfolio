@@ -2,7 +2,6 @@ import freelancer from '../../assets/freelancer.jpg';
 import gmail from '../../assets/social/gmail.png';
 import linkedin from '../../assets/social/linkedin.png';
 import facebook from '../../assets/social/facebook.png';
-
 import { Container } from 'styles/GlobalStyles';
 import {
   Wrapper,
@@ -42,7 +41,6 @@ const Freelance = () => {
             I'm a Front-End Developer ready to take on freelance challenges.
             Let's team up and create something extraordinary together!
           </Text>
-
           <IconsWrapper>
             {contactIcons.map((icon, i) => (
               <IconLink href={icon.linkTo} key={i} target="_blank">

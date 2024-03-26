@@ -16,7 +16,6 @@ const Navbar = () => {
   const { theme } = state;
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const mobileMenuRef = useRef();
-  //   const [bgBlur, setBgBlur] = useState(false);
 
   const handleThemeToggle = () => {
     dispatch({
@@ -39,19 +38,6 @@ const Navbar = () => {
       animation.kill();
     };
   });
-
-  //   useEffect(() => {
-  //     function scrollCheker() {
-  //       if (window.scrollY > 100) {
-  //         setBgBlur(true);
-  //       } else {
-  //         setBgBlur(false);
-  //       }
-  //     }
-  //     document.addEventListener('scroll', scrollCheker);
-
-  //     return () => window.removeEventListener('scroll', scrollCheker);
-  //   }, []);
 
   return (
     <Header theme={theme}>

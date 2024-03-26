@@ -9,6 +9,7 @@ import {
   CardLinkLive,
   CardLinks,
   CardProject,
+  CardTechnologies,
   CardTitle,
 } from './ProjectCard.styled';
 
@@ -19,6 +20,7 @@ const ProjectCard = ({ project }) => {
       <CardInfo>
         <CardTitle>{project.title}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
+        <CardTechnologies>{project.technologies}</CardTechnologies>
         <CardProject>{project.repository}</CardProject>
         <CardLinks>
           {project.github && (

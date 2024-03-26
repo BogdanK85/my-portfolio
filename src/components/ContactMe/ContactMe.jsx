@@ -5,7 +5,6 @@ import contact from '../../assets/contact.png';
 import telegram from '../../assets/social/telegram.png';
 import viber from '../../assets/social/viber.png';
 import whatsapp from '../../assets/social/whatsapp.png';
-
 import { Container } from 'styles/GlobalStyles';
 import {
   Heading,

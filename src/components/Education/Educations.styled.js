@@ -57,7 +57,7 @@ export const HighlightedLinkSertificate = styled.a`
   border-radius: 4px;
   color: white;
   display: flex;
-  width: 180px;
+  width: 200px;
   height: 46px;
   position: absolute;
   right: 15px;
@@ -65,6 +65,7 @@ export const HighlightedLinkSertificate = styled.a`
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5em;
+
   @media screen and (max-width: 1440px) {
     right: 1px;
     width: 200px;
@@ -122,6 +123,7 @@ export const HighlightedLinkSertificate = styled.a`
 
 export const EducationHeader = styled.div`
 display: flex;
+gap: 50px;
 align-items: center;
 justify-content: space-between;
 position: relative:

@@ -8,69 +8,95 @@ import watch from '../src/assets/projects/watch.png';
 import pulse from '../src/assets/projects/pulse.png';
 import tastytreats from '../src/assets/projects/tastytreats.png';
 import foodsta from '../src/assets/projects/foodsta.png';
+import restapi from '../src/assets/projects/restapi.png';
+import portfolio from '../src/assets/projects/posrtolio.png';
 
 export const projects = [
-  {
-    id: nanoid(),
-    title: 'Phonebook',
-    img: phonebook,
-    description: 'Phonebook app helps you save contacts and manage them',
-    repository: 'My own project',
-    technologies: ['React.js'],
-    github: 'https://github.com/BogdanK85/goit-react-hw-08-phonebook',
-    live: 'https://bogdank85.github.io/goit-react-hw-08-phonebook/',
-  },
-  {
-    id: nanoid(),
-    title: 'Web-Studio',
-    img: studio,
-    description: 'Site for digital marketing for your business.   sales.',
-    repository: 'My own project',
-    technologies: ['HTML, CSS'],
-    github: 'https://github.com/BogdanK85/web-studio',
-    live: 'https://bogdank85.github.io/web-studio/',
-  },
   {
     id: nanoid(),
     title: 'Lux car rent',
     img: rentcar,
     description: 'App helps you choose and rent lux car ',
-    repository: 'My own project',
+    repository: 'Individual  project',
     technologies: ['React.js'],
     github: 'https://github.com/BogdanK85/lux-car-rent',
     live: 'https://bogdank85.github.io/lux-car-rent/',
   },
   {
     id: nanoid(),
+    title: 'Tasty treats',
+    img: tastytreats,
+    description: 'Customize Your Meal with Ingredient and Video Guides',
+    repository: 'Team project',
+    technologies: ['HTML, CSS, JavaScript'],
+    github:
+      'https://github.com/kurshatsov-andrii/leader-code-team-tasty-treats/graphs/contributors',
+    live: 'https://kurshatsov-andrii.github.io/leader-code-team-tasty-treats/',
+  },
+  {
+    id: nanoid(),
+    title: 'Phonebook',
+    img: phonebook,
+    description: 'Phonebook app helps you save contacts and manage them',
+    repository: 'Individual  project',
+    technologies: ['React.js'],
+    github: 'https://github.com/BogdanK85/goit-react-hw-08-phonebook',
+    live: 'https://bogdank85.github.io/goit-react-hw-08-phonebook/',
+  },
+
+  {
+    id: nanoid(),
     title: 'Movies search',
     img: moviesSearch,
     description: 'App for seacrh movies and info about it',
-    repository: 'My own project',
+    repository: 'Individual  project',
     technologies: ['React.js'],
     github: 'https://github.com/BogdanK85/goit-react-hw-05-movies',
     live: 'https://bogdank85.github.io/goit-react-hw-05-movies/',
   },
   {
     id: nanoid(),
+    title: 'Power pulse',
+    img: pulse,
+    description:
+      'App for training your body, with diferent exercises and products',
+    repository: 'Team project',
+    technologies: ['Node.js, React.js, MongoDB'],
+    github:
+      'https://github.com/kurshatsov-andrii/leader-code-team-power-pulse-back-end/graphs/contributors',
+    live: 'https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/',
+  },
+  {
+    id: nanoid(),
+    title: 'Rest-API',
+    img: restapi,
+    description: 'Create user, authorisation, connect DB, add avatar, token ',
+    repository: 'Individual  project',
+    technologies: ['Node.js, MongoDB'],
+    github: 'https://github.com/BogdanK85/nodejs-hw2-rest-api/tree/hw06-email',
+    live: 'https://github.com/BogdanK85/nodejs-hw2-rest-api/tree/hw06-email',
+  },
+  {
+    id: nanoid(),
     title: 'Image search',
     img: imageSearch,
-    description: 'App for helps you to find diferent images in hd quality',
-    repository: 'My own project',
+    description: 'App helps you to find diferent images in hd quality',
+    repository: 'Individual  project',
     technologies: ['React.js'],
     github: 'https://github.com/BogdanK85/goit-react-hw-04-images/',
     live: 'https://bogdank85.github.io/goit-react-hw-04-images/',
   },
   {
     id: nanoid(),
-    title: 'FoodSta',
-    img: foodsta,
-    description: 'Enjoy Your Favorite Food From Anywhere',
-    repository: 'Team project',
-    technologies: ['React.js'],
-    github:
-      'https://github.com/OleksandrShpachuk/foodsta-team-project/graphs/contributors',
-    live: 'https://oleksandrshpachuk.github.io/foodsta-team-project/',
+    title: 'Web-Studio',
+    img: studio,
+    description: 'Site for digital marketing for your business.',
+    repository: 'Individual  project',
+    technologies: ['HTML, CSS'],
+    github: 'https://github.com/BogdanK85/web-studio',
+    live: 'https://bogdank85.github.io/web-studio/',
   },
+
   {
     id: nanoid(),
     title: 'The watch spot',
@@ -83,26 +109,25 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Power pulse',
-    img: pulse,
-    description:
-      'App for training your body, with diferent exercises and products',
+    title: 'FoodSta',
+    img: foodsta,
+    description: 'Enjoy Your Favorite Food From Anywhere',
     repository: 'Team project',
-    technologies: ['Node.js, React.js'],
+    technologies: ['HTML, CSS'],
     github:
-      'https://github.com/kurshatsov-andrii/leader-code-team-power-pulse-back-end/graphs/contributors',
-    live: 'https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/',
+      'https://github.com/OleksandrShpachuk/foodsta-team-project/graphs/contributors',
+    live: 'https://oleksandrshpachuk.github.io/foodsta-team-project/',
   },
+
   {
     id: nanoid(),
-    title: 'Tasty treats',
-    img: tastytreats,
-    description: 'Customize Your Meal with Ingredient and Video Guides',
-    repository: 'Team project',
-    technologies: ['React.js'],
-    github:
-      'https://github.com/kurshatsov-andrii/leader-code-team-tasty-treats/graphs/contributors',
-    live: 'https://kurshatsov-andrii.github.io/leader-code-team-tasty-treats/',
+    title: 'My Portfolio',
+    img: portfolio,
+    description: 'This app is a showcase of my skills, projects, and education',
+    repository: 'Individual  project',
+    technologies: [' React.js'],
+    github: 'https://github.com/BogdanK85/my-portfolio',
+    live: 'https://bogdank85.github.io/my-portfolio/',
   },
 ];
 
