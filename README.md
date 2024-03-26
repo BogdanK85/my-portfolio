@@ -16,17 +16,17 @@ To run this project locally, follow these steps:
 ## Features
 
 - **Home Page**: Displays an introduction, skills, featured projects, education,
-  and freelance availability. ![home page preview](./screens/homepage.png)
-  ![home page preview](./screens/homepage2.png)
+  and freelance availability. ![home page preview](./public/screens/homepage.png)
+  ![home page preview](./public/screens/homepage2.png)
 - **About Page**: Provides information about myself and my background. Also you
-  can download my resume. ![about me page preview](./screens/aboutpage.png)
+  can download my resume. ![about me page preview](./public/screens/aboutpage.png)
 - **Projects Page**: Lists all my projects with details. There are my personal
   projects and team projects where i was a developer and Scrum-Master.
-  ![Projects page preview](./screens/projectpage.png)
+  ![Projects page preview](./public/screens/projectpage.png)
 - **Education Page**: Highlights my educational qualifications.
-  ![Education page preview](./screens/educationpage.png)
+  ![Education page preview](./public/screens/educationpage.png)
 - **Contact Page**: Allows users to get in touch with me.
-  ![contact me page preview](./screens/contactpage.png)
+  ![contact me page preview](./public/screens/contactpage.png)
 
 ## Usage
 
