@@ -10,6 +10,7 @@ import tastytreats from '../src/assets/projects/tastytreats.png';
 import foodsta from '../src/assets/projects/foodsta.png';
 import restapi from '../src/assets/projects/restapi.png';
 import portfolio from '../src/assets/projects/posrtolio.png';
+import note from '../src/assets/projects/note.png';
 
 export const projects = [
   {
@@ -40,8 +41,8 @@ export const projects = [
     description: 'Phonebook app helps you save contacts and manage them',
     repository: 'Individual  project',
     technologies: ['React.js'],
-    github: 'https://github.com/BogdanK85/goit-react-hw-08-phonebook',
-    live: 'https://bogdank85.github.io/goit-react-hw-08-phonebook/',
+    github: 'https://github.com/BogdanK85/my-phonebook',
+    live: 'https://bogdank85.github.io/my-phonebook/',
   },
 
   {
@@ -51,8 +52,8 @@ export const projects = [
     description: 'App for seacrh movies and info about it',
     repository: 'Individual  project',
     technologies: ['React.js'],
-    github: 'https://github.com/BogdanK85/goit-react-hw-05-movies',
-    live: 'https://bogdank85.github.io/goit-react-hw-05-movies/',
+    github: 'https://github.com/BogdanK85/search-movie',
+    live: 'https://bogdank85.github.io/search-movie/',
   },
   {
     id: nanoid(),
@@ -128,6 +129,16 @@ export const projects = [
     technologies: [' React.js'],
     github: 'https://github.com/BogdanK85/my-portfolio',
     live: 'https://bogdank85.github.io/my-portfolio/',
+  },
+  {
+    id: nanoid(),
+    title: 'Notes',
+    img: note,
+    description: 'This app help you to add your notes, find and remove them',
+    repository: 'Individual  project',
+    technologies: [' React.js'],
+    github: 'https://github.com/BogdanK85/notes',
+    live: 'https://bogdank85.github.io/notes/',
   },
 ];
 
