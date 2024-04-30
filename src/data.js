@@ -11,6 +11,7 @@ import foodsta from '../src/assets/projects/foodsta.png';
 import restapi from '../src/assets/projects/restapi.png';
 import portfolio from '../src/assets/projects/posrtolio.png';
 import note from '../src/assets/projects/note.png';
+import flag from '../src/assets/projects/flag.png';
 
 export const projects = [
   {
@@ -139,6 +140,17 @@ export const projects = [
     technologies: [' React.js'],
     github: 'https://github.com/BogdanK85/notes',
     live: 'https://bogdank85.github.io/notes/',
+  },
+  {
+    id: nanoid(),
+    title: 'Flag finder',
+    img: flag,
+    description:
+      'This app help you to find flag of country and info about this country',
+    repository: 'Individual  project',
+    technologies: [' React.js'],
+    github: 'https://github.com/BogdanK85/flag-finder',
+    live: 'https://bogdank85.github.io/flag-finder/',
   },
 ];
 
